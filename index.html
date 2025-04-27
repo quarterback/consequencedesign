@@ -5,10 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Consequence Design</title>
 
-  <!-- Bunny Fonts -->
   <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,700|albert-sans:400,500,700" rel="stylesheet" />
-
   <script src="https://cdn.tailwindcss.com"></script>
+
   <style>
     body {
       font-family: 'Albert Sans', sans-serif;
@@ -19,90 +18,106 @@
   </style>
 </head>
 <body class="bg-[#FFF9EC] text-[#1C1C1C] leading-relaxed">
-
   <div class="max-w-3xl mx-auto px-6 py-12">
 
-   <!-- Hero -->
-<header class="mb-12">
-  <h1 class="text-4xl md:text-5xl font-bold text-[#C0392B]">Consequence Design</h1>
-  <p class="mt-4 text-xl text-[#2C3E50]">A field guide to systemic effects, hidden logics, and institutional erosion in mediated life.</p>
-</header>
+    <!-- Header -->
+    <header class="mb-12">
+      <h1 class="text-4xl md:text-5xl font-bold text-[#C0392B]">Consequence Design</h1>
+      <p class="mt-4 text-xl text-[#2C3E50]">
+        A field guide to systemic effects, hidden logics, and institutional erosion in mediated life.
+      </p>
+    </header>
 
-<!-- What is CD -->
-<section class="mb-10">
-  <h2 class="text-2xl font-semibold text-[#C0392B]">What is Consequence Design?</h2>
-  <p class="mt-4">
-    Consequence Design is a way of tracing how systems behave once deployed. It maps the unintended, invisible, and downstream effects of infrastructure, tools, and institutions—especially when friction is removed or context is lost.
-    It isn’t just a critique of technology. It’s a lens for understanding how simulation-native systems shape trust, participation, and the erosion of public meaning.
-  </p>
-</section>
+    <!-- What is Consequence Design -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-[#C0392B]">What is Consequence Design?</h2>
+      <p class="mt-4">
+        Consequence Design is a framework for examining how technology affects real lives post-deployment. It focuses on the tangible impacts of platforms and tools—the harm they produce once released into the world and how those harms ripple through communities and systems.
+      </p>
+      <p class="mt-2">
+        This isn't about theoretical ethics or design aesthetics. It's about concrete mechanisms: how defaults, automation decisions, and system architectures create real-world consequences that their creators often don't see or acknowledge. It examines what happens after technology leaves the controlled environment of development.
+      </p>
+      <p class="mt-2">
+        Consequence Design builds from observed reality—the administrative burdens, technical debris, and institutional damage people must navigate when systems fail slowly and responsibility is diffused or denied.
+      </p>
+    </section>
 
-<!-- Origins -->
-<section class="mb-10">
-  <h2 class="text-2xl font-semibold text-[#C0392B]">Origins</h2>
-  <p class="mt-4">
-    This work began as an attempt to name the patterns behind interface collapse and institutional degradation. What started as interaction mapping evolved into a broader theory of how legitimacy is manufactured through dashboards, defaults, and systems that appear neutral while quietly reorganizing power.
-  </p>
-  <p class="mt-2">
-    Consequence Design emerged as a response to acceleration without accountability. It now serves as both a framing device and a design ethic.
-  </p>
-</section>
+    <!-- Origins -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-[#C0392B]">Origins</h2>
+      <p class="mt-4">
+        Consequence Design emerged from a need to better respond to the real harms technology inflicts on everyday life. It developed as I witnessed how platforms and systems operate without sufficient consideration for the people who use them and the communities they affect.
+      </p>
+      <p class="mt-2">
+        This framework provides both a language for naming these challenges and a methodology for addressing them. It moves beyond surface-level critiques of "ethical lapses" to examine the structural and operational choices that create harm by design, regardless of intention.
+      </p>
+      <p class="mt-2">
+        What distinguishes Consequence Design from other frameworks is its focus on implementation and deployment rather than just interface design. It's less concerned with pixels and more with how technologies behave in complex social environments.
+      </p>
+    </section>
 
-<!-- About Me -->
-<section class="mb-10">
-  <h2 class="text-2xl font-semibold text-[#C0392B]">About Me</h2>
-  <p class="mt-4">
-    I’m <strong>Ron Bronson</strong>—an interaction engineer, strategist, and theorist working at the intersection of complexity, public systems, and institutional foresight.
-  </p>
-  <p class="mt-2">
-    I’ve led design and strategy teams inside government, taught design in urban planning programs, and worked across AI policy, service design, and systems transformation. My background includes roles at federal digital agencies, state governments, and civic tech collectives.
-  </p>
-  <p class="mt-2">
-    Consequence Design is the conceptual backbone of my research, consulting, and teaching. It connects the dots between how things are built, how they fail, and what they leave behind.
-  </p>
-</section>
+    <!-- DIRE -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold text-[#C0392B]">Design Integrity Reliability Engineering (DIRE)</h2>
+      <p class="mt-4">
+        DIRE is the applied systems framework that emerged from Consequence Design. It focuses on how to maintain and repair complex systems under pressure—especially when they are fragmented, aging, or layered with conflicting incentives.
+      </p>
+      <p class="mt-2">
+        DIRE centers on two concepts: integrity and reliability. It helps teams identify where systems drift from what they claim to be doing, and what happens when reliability fails across time, scale, or context.
+      </p>
+      <p class="mt-2">
+        It is used by designers, product leaders, operations teams, and public sector institutions to track breakdowns, map failure patterns, and develop realistic maintenance strategies.
+      </p>
+      <p class="mt-2">
+        You can <a href="#dire-details" class="underline hover:text-[#C0392B]">learn more about DIRE below</a>.
+      </p>
+    </section>
 
-<!-- Core Ideas -->
-<section class="mb-10">
-  <h2 class="text-2xl font-semibold text-[#C0392B]">Core Ideas</h2>
-  <ul class="mt-4 space-y-4">
-    <li>
-      <strong>Second-Order Effects:</strong> Most systems are designed with narrow goals. The deeper impacts—the ones that ripple, accumulate, or distort—often go unmeasured and unaddressed.
-    </li>
-    <li>
-      <strong>Administrative Aesthetics:</strong> Legitimacy is increasingly projected through dashboards, performance metrics, and “neutral” interfaces. Governance becomes simulation.
-    </li>
-    <li>
-      <strong>Parasitarchy:</strong> Institutions can be hollowed out and repurposed, retaining the form of function while becoming tools of extraction or illusion.
-    </li>
-    <li>
-      <strong>Friction as Signal:</strong> Friction isn’t failure—it’s information. Smoothness often masks harm, while obstacles can reveal where systems truly operate.
-    </li>
-  </ul>
-</section>
+    <!-- Core DIRE Breakdown -->
+    <section id="dire-details" class="mb-10">
+      <h2 class="text-2xl font-semibold text-[#C0392B]">The DIRE Framework</h2>
 
-<!-- Evolution -->
-<section class="mb-10">
-  <h2 class="text-2xl font-semibold text-[#C0392B]">Where It’s Going</h2>
-  <p class="mt-4">
-    Consequence Design has grown into a foundation for applied theory and critical practice. It now supports my writing, keynotes, and advising work across sectors—public and private, global and local.
-  </p>
-  <p class="mt-2">
-    Ongoing research and essays now live at 
-    <a href="https://outofscopemag.com" class="underline text-[#2C3E50] hover:text-[#C0392B]">OutOfScopeMag.com</a>, a home for developing ideas and framing our current techno-political moment.
-  </p>
-  <p class="mt-2">
-    This site remains a reference point—a distilled archive of foundational ideas for those navigating complexity with clarity.
-  </p>
-</section>
+      <div class="mt-4">
+        <h3 class="text-xl font-bold">Purpose</h3>
+        <p class="mt-2">
+          A practical framework for maintaining, improving, and stabilizing complex sociotechnical systems. Focused on repair, resilience, and institutional fluency.
+        </p>
+      </div>
 
-<!-- Footer -->
-<footer class="border-t pt-6 mt-12 text-sm text-[#2C3E50]">
-  <p>→ Read current writing at <a href="https://outofscopemag.com" class="underline hover:text-[#C0392B]">OutOfScopeMag.com</a></p>
-  <p class="mt-1">→ Connect via <a href="https://ronbronson.design" class="underline hover:text-[#C0392B]">ronbronson.design</a></p>
-</footer>
+      <div class="mt-6">
+        <h3 class="text-xl font-bold">Tagline</h3>
+        <p class="mt-2 italic">What holds the system together when no one’s watching.</p>
+      </div>
+
+      <div class="mt-6">
+        <h3 class="text-xl font-bold">Pillars</h3>
+        <ul class="list-disc pl-6 mt-2 space-y-2">
+          <li>
+            <strong>Integrity:</strong> Alignment between what a system says it does and how it behaves. This includes trust, accountability, and values coherence.
+          </li>
+          <li>
+            <strong>Reliability:</strong> The ability for a system to work under pressure, across time, and in degraded conditions. This includes repairability, failure tracking, and stress adaptation.
+          </li>
+        </ul>
+      </div>
+
+      <div class="mt-6">
+        <h3 class="text-xl font-bold">Modules</h3>
+        <ul class="list-disc pl-6 mt-2 space-y-1">
+          <li><strong>Integrity Mapping:</strong> Trace where systems drift from their claims</li>
+          <li><strong>Reliability Design:</strong> Build durable services and failure-aware infrastructure</li>
+          <li><strong>Institutional Fluency:</strong> Understand how roles, rules, and constraints affect outcomes</li>
+          <li><strong>Design Repair Practice:</strong> Develop repair protocols for broken experiences</li>
+          <li><strong>Resilience Planning:</strong> Prepare systems for long-term stress and decline scenarios</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t pt-6 mt-12 text-sm text-[#2C3E50]">
+      <p class="mt-1">→ Connect via <a href="https://ronbronson.design" class="underline hover:text-[#C0392B]">ronbronson.design</a></p>
+    </footer>
 
   </div>
-
 </body>
 </html>
